@@ -3,7 +3,7 @@ ARCH=arm64
 LUNCH=rk3328_box-userdebug
 UBOOT_DEFCONFIG=rk3328_box_defconfig
 KERNEL_DEFCONFIG=rockchip_smp_nougat_defconfig
-KERNEL_DTS=rk3328-evb
+KERNEL_DTS=rk3328-box-plus
 JOBS=12
 
 usage()
