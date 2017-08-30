@@ -17,6 +17,7 @@ key 114   VOLUME_DOWN
 key 143   NOTIFICATION    
 key 113   VOLUME_MUTE
 key 388   TV_KEYMOUSE_MODE_SWITCH
+key 111   DEL
 key 2     1
 key 3     2
 key 4     3
