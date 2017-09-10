@@ -15,6 +15,8 @@ on init
     write /sys/block/zram0/comp_algorithm lz4
 
 on boot
+    exec u:r:su:s0 root -- /system/bin/busybox sh /system/bin/fix_performance.sh
+
     # update cpusets feature nodes for rk3328 box
     write /dev/cpuset/foreground/cpus 0-3
     write /dev/cpuset/foreground/boost/cpus 0-3
